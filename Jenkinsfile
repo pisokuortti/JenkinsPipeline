@@ -13,6 +13,7 @@ pipeline {
           steps {
             echo 'Testing the application'
             echo "Get the DriverPath ${ChromeDriverPath}"
+            sleep 1
           }
         }
 
